@@ -1,6 +1,4 @@
 # vueTest
-=======
-# test2
 
 ## Project setup
 ```
