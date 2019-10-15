@@ -10,15 +10,3 @@ new Vue({
 	store,
 	render: h => h(App)
 }).$mount('#app')
-const qs = require('qs')
-const data = {
-	pageNum: 1,
-	masterId: 1
-}
-request({
-	url: '?s=Diy.Template.searchMaterial',
-	data: qs.stringify(data),
-	method: 'post'
-}).then(res => {
-	console.log(res)
-})
